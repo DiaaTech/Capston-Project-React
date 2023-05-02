@@ -1,0 +1,29 @@
+.featureSection {
+  background-color: var(--light-greyish-blue);
+  padding: 50px 180px;
+}
+.featureSection h1 {
+  font-weight: 300;
+}
+
+.features {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 50px;
+}
+.eachFeature {
+  width: 400px;
+}
+.eachFeature p,
+h1 {
+  width: 100%;
+}
+.eachFeature p {
+  color: var(--greysh-blue);
+}
+.eachFeature h1 {
+  font-weight: 300;
+  font-size: 28px;
+}
